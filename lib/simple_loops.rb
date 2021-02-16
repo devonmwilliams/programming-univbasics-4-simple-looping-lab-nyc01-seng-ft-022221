@@ -3,7 +3,8 @@ def loop_message_five_times(message)
   5.times {puts message}
 end
 
-def loop_message_n_times(message, 5)
-  message = "Hello World."
-  5.times {puts message}
+def loop_message_n_times(message, number)
+  message = "Hello Moon."
+  number = 5
+  number.times {puts message}
 end
