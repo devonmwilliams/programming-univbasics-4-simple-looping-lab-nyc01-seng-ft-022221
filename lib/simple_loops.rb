@@ -7,4 +7,7 @@ def loop_message_n_times(message, number)
   message = "Hello Moon."
   number = 5
   number.times {puts message}
+  message = "Hello Red Balloon"
+  number = 10
+  number.times {puts message}
 end
